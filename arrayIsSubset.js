@@ -6,7 +6,6 @@ function isSubset (array, sub) {
 
   // loop over each char of 1st arry looking for 1st char of 2nd array
   for(let i=0; i < array.length; i++) {
-    console.log(array[i], sub[c])
     if (array[i] === sub[c]) {
       c++;
       if (c >= sub.length) {
