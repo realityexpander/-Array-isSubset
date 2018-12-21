@@ -1,5 +1,7 @@
 function isSubset (array, sub) {
 
+  if (sub.length === 0)
+     return true;
   let c = 0;
 
   // loop over each char of 1st arry looking for 1st char of 2nd array
@@ -20,3 +22,4 @@ function isSubset (array, sub) {
 }
 
 console.log(isSubset([1,2,3,4], [2,3,4]))
+console.log(isSubset([2], []))
